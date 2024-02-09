@@ -1,0 +1,19 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/mytodo/todo.css"/>
+    <title>잘못된 접근입니다!</title>
+</head>
+<header>
+
+</header>
+<body>
+    <h1>잘못된 접근입니다!</h1>
+    <h2>404,405 또는 500에러입니다.</h2>
+    <p>주소창을 확인 후 다시 접속하시기 바랍니다.</p>
+    <small><a href="/Mytodologin">로그인 페이지로</a></small>
+</body>
+</html>
