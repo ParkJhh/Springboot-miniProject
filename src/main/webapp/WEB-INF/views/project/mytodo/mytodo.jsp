@@ -23,6 +23,7 @@
         </div>
     </nav>
 </header>
+
     <h1>todo-list</h1>
         <form action="/" id="form" method="post">
             <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">

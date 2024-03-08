@@ -14,13 +14,14 @@ import java.util.ArrayList;
 public class TodoAPIController {
     @Autowired
     MytodoMapper mytodoMapper;
-
+    
     //전체조회
     @GetMapping("")
     public ArrayList<ResponseTodo> todos() {
         ArrayList<ResponseTodo> x =  (ArrayList<ResponseTodo>) mytodoMapper.findAll();
         return x;
     }
+
     //저장
     @PostMapping("/save")
     public void add(@RequestBody RequestTodo todo) {
